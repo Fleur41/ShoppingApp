@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     id("com.google.devtools.ksp")
     id("com.google.dagger.hilt.android")
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -48,6 +49,15 @@ dependencies {
     //hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)
+
+    //firebase
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.storage)
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services.auth)
+    implementation(libs.googleid)
+
     // Room
     ksp(libs.androidx.room.compiler)
     implementation(libs.androidx.room.ktx)

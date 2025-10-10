@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.sam.shoppingapp" />
+                  <option name="mobileSdkAppId" value="1:385070193163:android:0d65cef6b3a19aeb93850e" />
+                  <option name="projectId" value="new-shopping-app-53c5b" />
+                  <option name="projectNumber" value="385070193163" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
