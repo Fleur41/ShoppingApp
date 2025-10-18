@@ -2,6 +2,8 @@ package com.sam.shoppingapp.shopping.domain.di
 
 
 
+import com.google.firebase.auth.FirebaseAuth
+import com.sam.shoppingapp.shopping.domain.repo.AuthRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
